@@ -1,0 +1,40 @@
+# Approach to Building the User Management System
+
+## Introduction
+This document outlines the approach used to build the Add, Delete, and Search User features in the User Management System. The project is developed using Vanilla JavaScript, HTML, and CSS, and it uses Local Storage to manage the user data.
+
+## Add User Feature
+### Approach
+1. Created an HTML form that captures the user's name.
+2. When the form is submitted, a JavaScript function is triggered.
+3. The function validates the input and creates a new user object with a unique ID and name.
+4. This object is then added to an array of users.
+5. The array is saved to Local Storage.
+
+### Technologies Used
+- HTML for the form.
+- JavaScript for handling form submission and Local Storage.
+
+## Delete User Feature
+### Approach
+1. Each user displayed has a "Delete" button next to it.
+2. When clicked, a JavaScript function identifies which user is to be deleted based on the unique ID.
+3. The user object is then removed from the array.
+4. The updated array is saved back to Local Storage.
+
+### Technologies Used
+- JavaScript for event handling and Local Storage.
+
+## Search User Feature
+### Approach
+1. Created an HTML input field to capture the search query.
+2. As the user types in the search box, a JavaScript function is triggered.
+3. This function filters the user array based on the search query.
+4. Displays the filtered array to the user.
+
+### Technologies Used
+- HTML for the input field.
+- JavaScript for filtering and displaying the data.
+
+## Conclusion
+The project uses Vanilla JavaScript along with HTML and CSS to create a user-friendly interface for managing users. Local Storage is used to persist data across sessions, making it a robust solution for user management.

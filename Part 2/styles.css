@@ -1,0 +1,102 @@
+/* Sets the font and background for the entire document */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Sets the width and background for the main container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Adds margin to the form for adding users */
+#addUserForm {
+    margin-bottom: 20px;
+}
+
+/* Styles the user name and search input fields */
+#userNameInput,
+#searchInput {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styles each user item in the list */
+.userItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles the delete button next to each user */
+.deleteButton {
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Adds margin to the search input field */
+#searchInput {
+    margin-bottom: 20px;
+}
+
+/* Styles the Add User button */
+button[type="submit"] {
+    height: 40px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Sets the background color for the body */
+body {
+    background-color: #e6f7ff;
+}
+
+/* General button styles */
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    margin: 8px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Spacing between adjacent buttons */
+button + button {
+    margin-left: 10px;
+}
+
+/* Adjusts the padding and height for the Add User button */
+button[type="submit"] {
+    padding: 8px 16px;
+    height: auto;
+}

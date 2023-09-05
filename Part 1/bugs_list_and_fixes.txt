@@ -1,0 +1,15 @@
+List of Bugs Identified and Fixes Applied
+
+1. HTML File (hello.html)
+   - Bug: Missing opening angle bracket in <!DOCTYPE html> declaration.
+   - Fix: Added the missing opening angle bracket.
+
+2. JavaScript File (app.js)
+   - Bug: Typo in setTimeout function name as 'setTimout'.
+   - Fix: Corrected the typo to 'setTimeout'.
+   
+   - Bug: Typo in 'innerHTML' property name as 'innerhtml'.
+   - Fix: Corrected the typo to 'innerHTML'.
+   
+   - Bug: Parameter mismatch in 'fetchUsers' callback function. Parameter should be 'users' instead of 'user'.
+   - Fix: Changed the parameter name from 'user' to 'users'.
