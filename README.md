@@ -58,10 +58,6 @@ PSI_Intern_Assignment/
 - **Part 1**: Contains a list of bugs identified and their corresponding fixes in `bugs_list_and_fixes.txt`.
 - **Part 2**: Contains a document `User_Management_Approach.txt` that explains the approach to building the Add, Delete, and Search User features.
 
-## Author
-
-Harshit Gupta
-
 ## Contributing
 
 If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
